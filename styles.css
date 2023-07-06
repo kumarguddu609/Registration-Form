@@ -72,10 +72,15 @@ input[type="submit"] {
   min-width: 300px;
   margin-top: 1em;
   margin-bottom: 1em;
+  transition: .5s;
 }
 input[type="file"] {
   padding: 1px 2px;
 }
 a {
   color: #dfdfe2;
+}
+
+input[type="submit"]:hover{
+  background-color:#03045e;
 }
